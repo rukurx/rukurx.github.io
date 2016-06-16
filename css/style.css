@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #151515;
+  background: #3E4156;
   color: #fff;
   text-align: center;
   font-size: 1.4rem;
@@ -41,6 +41,21 @@ body {
   padding: 80px 30px;
   background-color: #fff;
   color: #333;
+}
+
+.work-img li {
+  display: inline-block;
+}
+
+.work-img-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+}
+
+.work-img-circle:hover {
+  opacity: 0.5;
 }
 
 .about {
