@@ -13,11 +13,16 @@ body {
   color: #fff;
   text-align: center;
   font-size: 1.4rem;
-  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: STIXGeneral-Regular;
 }
 
 .header {
-  padding: 170px 30px 80px;
+  padding: 80px 30px 90px;
+}
+
+.logo {
+  width: 500px;
+  height: 500px;
 }
 
 .site-title {
