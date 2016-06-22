@@ -34,6 +34,7 @@ body {
   margin: 30px 0 30px;
   letter-spacing: 1px;
   font-size: 5.2rem;
+  color: #FEF3DB;
 }
 
 .heading {
@@ -43,7 +44,7 @@ body {
 }
 
 .work {
-  padding: 80px 30px;
+  padding: 50px 30px;
   background-color: #fff;
   color: #333;
 }
@@ -64,28 +65,41 @@ body {
 }
 
 .about {
-  padding: 80px 30px;
+  padding: 50px 30px;
   background-color: #fff;
   color: #333;
 }
 
 .profile {
-  padding: 80px 30px;
+  padding: 50px 30px;
+}
+
+.profile-left {
+  float: left;
+  width: 50%;
+}
+
+.profile-right {
+  float: left;
+  width: 50%;
 }
 
 .profile-image {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  margin: 50px;
+  width: 200px;
+  height: 200 px;
+  margin: 10px -200px 0 0;
 }
 
 .profile-text {
-  font-size: 2.0rem;
+  font-size: 1.75rem;
+  text-align: left;
+  margin: 20px 0 0 10px;
+  line-height: normal;
 }
 
 .skills {
-  padding: 80px 0;
+  padding: 50px 0;
   background-color: #fff;
   color: #333;
 }
@@ -172,6 +186,11 @@ body {
 
 .footer {
   padding: 12px 0;
-  font-size: 1.3rem;  
+  font-size: 1.3rem;
 }
 
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
