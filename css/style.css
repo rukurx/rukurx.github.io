@@ -69,6 +69,21 @@ body {
   color: #333;
 }
 
+.profile {
+  padding: 80px 30px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+}
+
+.profile-text {
+  font-size: 2.0rem;
+}
+
 .skills {
   padding: 80px 0;
   background-color: #fff;
